@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-main {
+  background-color: #282c34;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.main-centralDiv {
+  background-color: #222732;
+  min-height: 90vh;
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1em; 
+}
+
+.centralDiv-head {
+  min-height: 5vh;
+}
+
+.centralDiv-textField {
+  min-height: 100%;
+}
+
+.centralDiv-chatField {
+  min-height: 4vw;
+  display: flex;
+}
+
+.chatField-inputText {
+  background-color: aliceblue;
+  min-height: 80%;
+  min-width: 85%;
+  margin: 1.5% 0 1.5% 5%;
+  border-radius: 1em; 
+}
