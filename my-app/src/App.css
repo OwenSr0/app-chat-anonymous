@@ -25,7 +25,7 @@
 }
 
 .main-centralDiv {
-  background-color: #222732;
+  background-color: aliceblue;
   min-height: 90vh;
   min-width: 60%;
   display: flex;
@@ -43,14 +43,31 @@
 }
 
 .centralDiv-chatField {
-  min-height: 4vw;
   display: flex;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .chatField-inputText {
-  background-color: aliceblue;
-  min-height: 80%;
-  min-width: 85%;
-  margin: 1.5% 0 1.5% 5%;
-  border-radius: 1em; 
+  background-color: red;
+  width: 80%;
+  height: 1em;
+  margin: 0 1em 0.7em 1em;
+}
+
+.chatField-button {
+  width: 2em;
+  height: 2em;
+}
+
+.inputText-input {
+  background-color: #353a42;
+  display: flex;
+  height: 97%;
+  min-width: 98%;
+  border-radius: 0.4em; 
+}
+
+.textp-InputTextp {
+  
 }

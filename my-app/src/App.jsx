@@ -9,16 +9,16 @@ function App() {
         <div className="main-centralDiv">
           <header className="centralDiv-head"></header>
           <div className="centralDiv-textField"></div>
-          <div className="centralDiv-chatField">
+          <footer className="centralDiv-chatField">
             <div className="chatField-inputText">
-              <div className="inputText-Text"></div>
+              <textarea className="inputText-input" name="" id=""></textarea>
             </div>
             <div className="chatField-bottom"></div>
-          </div>
+          </footer>
         </div>
       </main>
     </div>
-  );
+  ); 
 }
 
 export default App;
