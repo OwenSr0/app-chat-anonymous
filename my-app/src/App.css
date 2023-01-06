@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: red;
 }
 
 .main-centralDiv {
@@ -38,36 +38,16 @@
   min-height: 5vh;
 }
 
-.centralDiv-textField {
-  min-height: 100%;
-}
-
 .centralDiv-chatField {
-  display: flex;
+  display: block;
+  align-items: center;
   justify-content: flex-start;
   width: 100%;
-}
-
-.chatField-inputText {
-  background-color: red;
-  width: 80%;
-  height: 1em;
-  margin: 0 1em 0.7em 1em;
+  height: 3em;
+  padding-bottom: 10em;
 }
 
 .chatField-button {
   width: 2em;
   height: 2em;
-}
-
-.inputText-input {
-  background-color: #353a42;
-  display: flex;
-  height: 97%;
-  min-width: 98%;
-  border-radius: 0.4em; 
-}
-
-.textp-InputTextp {
-  
 }
