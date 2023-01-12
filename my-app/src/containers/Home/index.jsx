@@ -1,5 +1,8 @@
 import React from "react";
-import { Container }from '@mui/material'
+import { Container }from '@mui/material';
+import StartButton from "../../componets/Buttons/StartButton";
+import FirstExplainText from "../../componets/Text/FirstExplainText";
+import SubExplainText from "../../componets/Text/SubExplainText";
 
 const stackStyle = {
     background: 'whitesmoke',
@@ -14,7 +17,9 @@ const stackStyle = {
 const Home = () => {
     return (
         <Container sx={stackStyle}>
-
+            <FirstExplainText/>
+            <SubExplainText/>
+            <StartButton/>
         </Container>
     )
 }

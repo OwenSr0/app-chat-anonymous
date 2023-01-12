@@ -1,6 +1,6 @@
 import React from "react";
 import { Container }from '@mui/material'
-import FooterBotton from '../../componets/textField+botton/index'
+import FooterBotton from '../../componets/FooterBotton/index'
 import TextRead from '../TextRead/index';
 
 const stackStyle = {

@@ -10,6 +10,7 @@ const stackStyleCon ={
   height: '100vh',
   paddingLeft: {x:'0',m:'0',lg:'0'},
   paddingRight: {x:'0',m:'0',lg:'0'}
+  // Agregar un flex para centrar los cuadros blancos, no c ni como se centran con margin ?
 }
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     <Container sx={stackStyleCon}>
       <header className="App-header">
       </header>
-      <Home/>
+      <Home/> 
 
 
 
